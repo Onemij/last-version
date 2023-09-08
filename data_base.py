@@ -1,6 +1,7 @@
 import sqlite3, fechas, datetime, os, time
 from settings import switch_categories, switch_subcategories
 
+#comentario de prueba ramas 
 
 conn = sqlite3.connect('movimientos.db')
 c = conn.cursor()
